@@ -1,0 +1,59 @@
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    #planet, #name {
+        font-size: 20px;
+    }
+    #field {
+        width: 10em;
+        height: 2em;
+    }
+    #eye {
+        margin: auto;
+        position: relative;
+        left: 210px;
+        bottom: 8em;}
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    #planet, #name {
+        font-size: 15px;
+    }
+    #field {
+        width: 8em;
+        height: 2em;
+    }
+    #eye {
+        position: relative;
+        bottom: 3em;
+        left: 130px;
+        transform: scale(0.8);
+    }
+}
+
+@media screen and (max-width: 290px) {
+    h1 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    #planet, #name {
+        font-size: 15px;
+    }
+    #field {
+        width: 8em;
+        height: 2em;
+    }
+    #eye {
+        position: relative;
+        bottom: 0em;
+        left: 90px;
+        transform: scale(0.8);
+    }
+}
+

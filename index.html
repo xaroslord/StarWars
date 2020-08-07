@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<title>Энциклопедия</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" media="screen and (max-width: 600px)" href="small.css">
+	<link rel="stylesheet" media="screen and (min-width: 600px)" href="large.css">
+</head>
+
+<body>
+	
+	<h1>Персонажи StarWars</h1>
+	
+	<p>Введите число и получите персонажа</p>
+	
+	<div class="search">
+		<input type="text" id="field">
+		<button id="find">Найти</button>
+	</div>
+
+	<div class="result">
+	</div>
+
+	<div class="table">
+		<p>Имя:
+			<p id="name"></p>
+		</p>
+		<p>Планета:
+			<p id="planet"></p>
+		</p>
+
+		<div id="eye"></div>
+	</div>
+
+	<script src="code.js"></script>
+
+</body>	
+</html>

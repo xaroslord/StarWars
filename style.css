@@ -1,0 +1,45 @@
+h1, p {
+color: yellow;
+font-family: verdana;
+}
+
+h1 {
+font-size: 70px;
+font-weight: 100;
+}
+
+html {
+background: linear-gradient(to top, #333649, black) no-repeat;
+background-size: cover;
+min-width: 100%;
+min-height: 100%;
+text-align: center;
+}
+
+button {
+    background: transparent; 
+    border: none;
+    color: yellow;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+   }
+
+#eye {
+margin-left: 90%;
+display: inline-block;
+position: relative;
+bottom: 150px;
+}
+
+#name, #planet {
+color: white;
+}
+
+.table {
+width: 300px;
+padding: 30px;
+position: relative; 
+top: 70px;
+text-align: left;
+margin: auto;}
